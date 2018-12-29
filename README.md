@@ -17,6 +17,7 @@ This is the decryption daemon. It works similar to the encryption server describ
 
 ### otp_dec.c
 This is the decryption client. It works similar to the encryption client described above.
+
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 ### Example:
