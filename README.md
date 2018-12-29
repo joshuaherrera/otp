@@ -3,6 +3,35 @@ A simple one time pad encryption implementation.
 
 Utilizes a client/server model to encrypt and decrypt plaintext files.
 
+## Usage
+
+### Compilation
+
+Compile all of the files using the provided bash script compileall. 
+
+### Execution
+
+**keygen**
+
+Takes as an argument the desired keypad size. Outputs to standard out.
+
+**otp_enc_d / otp_dec_d**
+
+Takes as an argument the desired port to listen on.
+
+**otp_enc**
+
+Takes as arguments the desired file to encrypt, the keypad, and the port number to otp_enc_d. Ouputs to standard out.
+
+**otp_dec**
+
+Takes as arguments the desired file to decrypt, the keypad, and the port number to otp_dec_d. Ouputs to standard out.
+
+
+####
+
+## Explanations
+
 ### keygen.c
 This file creates a key used for file encryption and decryption. It must be given a desired key length.
 
