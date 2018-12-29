@@ -15,11 +15,11 @@ This is the encryption client. It connects to the encryption daemon and requests
 ### otp_dec_d.c
 This is the decryption daemon. It works similar to the encryption server described above.
 
-###otp_dec.c
+### otp_dec.c
 This is the decryption client. It works similar to the encryption client described above.
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-### Example usage with bash:
+### Example:
 
 	$ ./otp_enc_d 8888 &	
 	$ ./otp_dec_d 8889 &	
